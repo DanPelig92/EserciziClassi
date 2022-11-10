@@ -1,7 +1,18 @@
 const GeometricShape = require('./GeometricShape');
 const StringSplitter = require('./StringSplitter');
+const Student = require('./Student');
+
+//---------------ESERCIZIO 0
 
 
+
+let stu1 = new Student ("Francesco", "Bertolini", "2001", "rubare nei supermercati", "le cose rubate sono piú buone");
+let stu2 = new Student ("Daniele", "Madeddu", "1992", "leggere manga", "la vita è il nemico");
+
+//stu1.getMotto();
+//stu1.getAge();
+//console.log(stu1.haveSameHobby(stu2.getHobby));
+console.log(stu1.compareAge(stu2.getAge()));
 
 
 //---------------ESERCIZIO 1
