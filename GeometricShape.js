@@ -26,10 +26,10 @@ let GeometricShape = class {
 
     drawShape() {
         let shape =""
-        for (let i = 0; i <= this.base; i++) {
+        for (let i = 0; i < this.base; i++) {
             shape=shape+"_ "
         }
-        for (let j=0; j<=this.altezza; j++) {
+        for (let j=0; j<this.altezza; j++) {
             console.log(shape);
         }
 

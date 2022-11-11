@@ -20,9 +20,9 @@ console.log(stu1.compareAge(stu2.getAge()));
 let st1 = new StringSplitter("bomba");
 let st2 = new StringSplitter("bombay")
 
-//console.log(st1.getSplits(2));
+console.log(st1.getSplits(2));
 //console.log(st1.getAllSplits());
-console.log(st1.addArrays(st1.getAllSplits(), st2.getAllSplits()));
+//console.log(st1.addArrays(st1.getAllSplits(), st2.getAllSplits()));
 
 //---------------ESERCIZIO 2
 let s1 = new GeometricShape("Gianni","square", 4, 3, 3);
